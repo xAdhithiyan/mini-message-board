@@ -6,16 +6,16 @@
     <title>Document</title>
   </head>
   <body>
-    <form action="POST" action="/new">
+    <form method="POST" action="/new">
       <h1>Add a User</h1>
       <div>
         <label for="name">Name: </label>
-        <input class="name" type="text" />
+        <input class="name" type="text" name="name" />
       </div>
       <br />
       <div>
         <label for="message">Message: </label>
-        <input class="message" type="text" />
+        <input class="message" type="text" name="message" />
       </div>
       <br />
       <button type="submit">Submit</button>
